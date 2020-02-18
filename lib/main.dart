@@ -10,7 +10,7 @@ const String PARSE_APP_URL = 'https://parseapi.back4app.com';
 const String MASTER_KEY = 'YOUR_KEY';
 
 
-Future<void> main() async {
+void main() async {
 
   WidgetsFlutterBinding.ensureInitialized();
   Parse().initialize(
